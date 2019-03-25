@@ -1,22 +1,25 @@
 body {
-    font-family: "Montserrat", Arial, sans-serif ;
+    font-family: "Montserrat", Arial, sans-serif;
     font-size: 18px;
     line-height: 18px;
     font-weight: 400;
     background-color: #ffffff;
-    color: rgba(75,88,99,0.35);
+    color: rgba(75, 88, 99, 0.35);
 
-    width:2000px;
+    width: 2000px;
     margin: 0;
     padding: 0;
 }
+
 a {
     text-decoration: none;
 }
+
 img {
     max-width: 100%;
     height: auto;
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -30,52 +33,63 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 .main-header {
     margin: 0 auto;
     text-align: center;
     display: flex;
     position: relative;
-    margin-bottom: 245px;
+    margin-bottom: 272px;
 }
+
 .main-logo {
-    width:414px;
+    width: 414px;
     height: 414px;
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 65px 0px rgba(218, 229, 239, 0.55);
     position: absolute;
-    left: 780px;
-    top:-245px;
+    left: 794px;
+    top: -203px;
 }
 
-.main-logo h1{
+.main-logo h1 {
     font-size: 48px;
     color: #43a9ff;
-    padding-top: 250px;
-   }
+    padding-top: 239px;
+}
+
 .main-logo p {
     font-weight: 700;
-    color: rgba(75,88,99,0.15);
+    color: rgba(75, 88, 99, 0.15);
+    margin-top: -15px;
 }
+
 .main-navigation {
     width: 100%;
 }
-.main-navigation-list  {
+
+.main-navigation-list {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
+    margin-top: 59px;
 }
+
 .main-navigation-list a {
     color: #000000;
 }
+
 .main-navigation-item:first-child {
     padding-left: 265px;
-    margin-right: 1230px;
+    margin-right: 1349px;
 }
+
 .main-navigation-item:last-child {
     padding-right: 265px;
 }
+
 .main-navigation-item a {
     display: block;
     width: 60px;
@@ -85,14 +99,16 @@ img {
     box-shadow: 0px 0px 65px 0px rgba(218, 229, 239, 0.5);
     background-repeat: no-repeat;
 }
+
 .main-menu {
     background-image: url("../img/Prostokąt 2 kopia 2.png");
     background-position: 20px 22px;
 }
+
 .main-search {
     background-image: url("../img/search.png");
     background-position: 20px 20px;
-  }
+}
 
 
 /* -------------------Main page-----------------------------------------------------*/
@@ -100,22 +116,33 @@ img {
     margin: 0 auto;
     text-align: center;
 }
+
 .promo {
-background-image: url("../img/Promo-mini.png");
+    background-image: url("../img/Promo-mini.png");
     background-repeat: no-repeat;
     min-height: 1088px;
+    background-position: 0 44px;
+    margin-bottom: 49px;
 }
+
 .promo-title,
-.features-title{
+.features-title {
     font-size: 48px;
-    color:#000000 ;
+    color: #000000;
 }
+
 .features-title {
     margin-top: 0px;
 }
+
+.promo p {
+    padding-top: 1px;
+}
+
 .promo button,
 .offers button,
-.main-footer button{
+.main-footer button {
+    font-family: "Montserrat", Arial, sans-serif;
     text-transform: uppercase;
     font-size: 14px;
     line-height: 24px;
@@ -128,43 +155,75 @@ background-image: url("../img/Promo-mini.png");
 
 
 }
+
+.button-promo {
+    margin-top: 69px;
+}
+
 .button-promo,
 .button-offers,
-.button-push{
-    padding: 16px 40px;
+.button-push {
+    padding: 14px 37px;
 }
+
+.features {
+    width: 1500px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.features > p {
+    margin-bottom: 36px;
+    margin-left: -50px;
+}
+
 .feature-title {
-   color: #000000;
+    color: #000000;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 0px 27px 0px 57px;
 }
+
 .feature-item p {
     font-size: 14px;
     line-height: 24px;
 }
+
 .feature-list {
     padding: 0;
     display: flex;
     list-style: none;
-    margin-right: 265px;
-    margin-left: 265px;
+
+    width: 1500px;
 }
+
 .feature-item {
-  padding-right: 30px;
-    margin-top: 190px;
+    padding-right: 30px;
+    margin-top: 143px;
     margin-bottom: 50px;
 
 }
+
 .feature-item p {
     width: 255px;
+    padding: 18px 0 0 58px;
 }
-.offer-list,
-.example-app-list{
+.button-offers {
+    margin-top: 9px;
+
+}
+.offer-list{
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
+    margin-top: 124px;
+
 }
+
 .offer-item {
     display: flex;
+    justify-content: space-between;
 
 }
 
@@ -174,39 +233,87 @@ background-image: url("../img/Promo-mini.png");
     font-weight: 400;
 
 }
+
 .offer-title-black {
     color: #000000;
 }
+
 .offer-title-blue {
-    color:#43a9ff;
+    color: #43a9ff;
 }
+
 .offer-title-red {
-    color:#fe3254;
+    color: #fe3254;
+}
+.offer-container {
+
+
+    margin-right:auto ;
+
+}
+
+.offer-item:first-child h3
+{
+    margin-top: 203px;
+    margin-left: 60px;
+
+}
+.offer-item:nth-child(2) h3
+{
+    margin-top: 203px;
+    margin-left: 208px;
+
 }
 .offers p {
     font-size: 16px;
     line-height: 36px;
     font-weight: 400;
     width: 510px;
+    text-align: left;
+    padding-left: 119px;
+    padding-top: 2px;
 }
-.offer-item:nth-child(2n){
+.offer-item:nth-child(2) p{
+    padding-left: 265px;
+    padding-top: 4px;
+}
+    /*.offer-item:nth-child(2) p*/
+/*{*/
+    /*margin-top: 51px;*/
+    /*margin-right: 222px;*/
+
+/*}*/
+.offer-item:nth-child(2n) {
     flex-direction: row-reverse;
 }
+.image-container {
+    background-image: url("../img/Snowflake.png");
+    background-repeat: no-repeat;
+    background-position: 44px -90px;
+
+}
+.offer-item:nth-child(3) img
+{    margin-left: 398px;
+    margin-top: 162px;}
 .item-gray {
     background-color: #f7f8fb;
 }
+
 .item-white {
     background-color: #ffffff;
 }
+
 .sign {
     font-size: 16px;
     line-height: 36px;
     color: #000000;
 }
+
 .by {
     font-size: 16px;
     line-height: 36px;
 }
+
 .main-footer {
     margin: 0 auto;
     text-align: center;
@@ -215,6 +322,7 @@ background-image: url("../img/Promo-mini.png");
     min-height: 1088px;
     margin-top: 100px;
 }
+
 .footer-title {
     font-size: 48px;
     line-height: 18px;
