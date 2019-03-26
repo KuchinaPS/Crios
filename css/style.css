@@ -110,7 +110,6 @@ img {
     background-position: 20px 20px;
 }
 
-
 /* -------------------Main page-----------------------------------------------------*/
 .main-page {
     margin: 0 auto;
@@ -152,8 +151,6 @@ img {
     border: none;
     border-radius: 22px;
     box-shadow: 0px 0px 35px 0px rgba(218, 229, 239, 0.35);
-
-
 }
 
 .button-promo {
@@ -227,7 +224,6 @@ img {
     padding-right: 30px;
     margin-top: 143px;
     margin-bottom: 50px;
-
 }
 
 .feature-item p {
@@ -237,7 +233,6 @@ img {
 
 .button-offers {
     margin-top: 9px;
-
 }
 
 .offer-list {
@@ -246,20 +241,17 @@ img {
     display: flex;
     flex-direction: column;
     margin-top: 124px;
-
 }
 
 .offer-item {
     display: flex;
     justify-content: space-between;
-
 }
 
 .offer-title {
     font-size: 48px;
     line-height: 18px;
     font-weight: 400;
-
 }
 
 .offer-title-black {
@@ -275,22 +267,17 @@ img {
 }
 
 .offer-container {
-
-
     margin-right: auto;
-
 }
 
 .offer-item:first-child h3 {
     margin-top: 203px;
     margin-left: 60px;
-
 }
 
 .offer-item:nth-child(2) h3 {
     margin-top: 203px;
     margin-left: 208px;
-
 }
 
 .offer-item:nth-child(3) h3 {
@@ -306,7 +293,6 @@ img {
 .offer-item:last-child h3 {
     margin-top: 385px;
     margin-right: 405px;
-
 }
 
 .offers p {
@@ -361,8 +347,6 @@ img {
     background-image: url("../img/Snowflake2.png");
     background-repeat: no-repeat;
     background-position: 179px 359px;
-
-
 }
 
 .offer-item:nth-child(3) img {
@@ -426,5 +410,4 @@ img {
     margin-top: 68px;
     margin-left: -5px;
     padding: 14px 57px;
-
 }
